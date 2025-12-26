@@ -1,5 +1,5 @@
 package = "qjson"
-version = "0.1.0"
+version = "0.3.1"
 lua = ">=5.1"
 
 [description]
@@ -11,8 +11,7 @@ license = "MIT"
 [dependencies]
 
 [source]
-url = "https://github.com/vurvdev/qjson.lua"
-tag = "v0.3.1"
+url = "https://github.com/vurvdev/qjson"
 
 [build]
 type = "builtin"
