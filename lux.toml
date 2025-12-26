@@ -1,0 +1,18 @@
+package = "qjson"
+version = "0.1.0"
+lua = ">=5.1"
+
+[description]
+summary = "Tiny, quick JSON library for lua."
+maintainer = "vurvdev"
+labels = [ "json", "lua", "parser", "serializer", "data" ]
+license = "MIT"
+
+[dependencies]
+
+[source]
+url = "https://github.com/vurvdev/qjson.lua"
+tag = "v0.3.1"
+
+[build]
+type = "builtin"

@@ -42,7 +42,7 @@ local loadstring = loadstring or load
 print("Downloading required files...")
 
 local LIBS --[[@type table<string, table>]] = {
-	["vurv78/qjson"] = require "qjson",
+	["vurvdev/qjson"] = require "qjson",
 	["rxi/json"] = loadstring(get("https://raw.githubusercontent.com/rxi/json.lua/master/json.lua"))(),
 	["actboy168/json"] = loadstring(get("https://raw.githubusercontent.com/actboy168/json.lua/master/json.lua"))(),
 	["luadist/dkjson"] = loadstring(get("https://raw.githubusercontent.com/LuaDist/dkjson/master/dkjson.lua"))(),
